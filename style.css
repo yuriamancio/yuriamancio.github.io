@@ -107,14 +107,14 @@ a {
 .banner__experience {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 4rem;
+  font-size: 3rem;
   letter-spacing: 2px;
 }
 
 .banner__summit {
-  transform: translatey(-20px);
+  transform: translatey(-18px);
   font-family: "Amatic SC", sans-serif;
-  font-size: 8rem;
+  font-size: 6rem;
   color: #1e90ff;
 }
 
