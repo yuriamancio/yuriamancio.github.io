@@ -7,9 +7,10 @@
       <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Raleway&display=swap" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="https://yuriamancio.github.io/normalize.css" />
       <link rel="stylesheet" type="text/css" href="https://yuriamancio.github.io/style.css" />
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body>
-    <nav class="navigation">
+   <nav class="navigation" data-aos="slide-up">
       <a href="#" class="nav-link">The Lodge</a>
       <a href="#" class="nav-link">Our Ski Runs</a>
       <a href="#" class="nav-link logo">The Summit</a>
@@ -30,7 +31,7 @@
 
     <div class="resort">
       <h3 class="resort__heading">The experience</h3>
-      <div class="resort__description">
+      <div class="resort__description" data-aos="slide-up">
         <p class="resort__text">
           The Summit is the geographical center of the the Breckenridge Ski
           Area. It also has the widest variety of terrain, from beginner trails
@@ -61,17 +62,29 @@
     <section class="activities">
       <h3 class="resort__heading">Activities</h3>
       <div class="resort__activities">
-        <a href="#" class="activity activity--skiing">Skiing</a>
+        <a href="#" class="activity activity--skiing" data-aos="slide-right"
+          >Skiing</a
+        >
         <a href="#" class="activity activity--snowboarding">Snowboarding</a>
-        <a href="#" class="activity activity--shoeing">Shoeing</a>
-        <a href="#" class="activity activity--skiing">Dogsleeding</a>
+        <a href="#" class="activity activity--shoeing" data-aos="slide-left"
+          >Shoeing</a
+        >
+        <a href="#" class="activity activity--skiing" data-aos="slide-right"
+          >Dogsleeding</a
+        >
         <a href="#" class="activity activity--tubing">Tubing</a>
-        <a href="#" class="activity activity--sleeding">Sleeding</a>
+        <a href="#" class="activity activity--sleeding" data-aos="slide-left"
+          >Sleeding</a
+        >
       </div>
     </section>
 
     <footer class="resort-location">
       <p>1098 Le Alps D'Hez - Lausanne - Suisse</p>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
