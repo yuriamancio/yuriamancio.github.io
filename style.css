@@ -107,14 +107,14 @@ a {
 .banner__experience {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 5rem;
+  font-size: 4rem;
   letter-spacing: 2px;
 }
 
 .banner__summit {
-  transform: translatey(-27px);
+  transform: translatey(-22px);
   font-family: "Amatic SC", sans-serif;
-  font-size: 9.8rem;
+  font-size: 7.8rem;
   color: #1e90ff;
 }
 
@@ -124,11 +124,11 @@ a {
   }
 
   .banner__experience {
-    font-size: 10rem;
+    font-size: 5rem;
   }
 
   .banner__summit {
-    font-size: 19rem;
+    font-size: 9.5rem;
   }
 }
 
@@ -228,10 +228,14 @@ a {
 /* footer */
 
 .resort-location {
+  font-family: "Amatic SC", sans-serif;
   background-color: #2176ff;
-  margin-top: 3rem;
-  padding: 1rem;
+  margin-top: 2rem;
   text-align: center;
-  font-size: 3rem;
+  font-size: 6rem;
   color: #fff;
+}
+
+.resort-location p {
+  margin: 0;
 }
