@@ -69,6 +69,10 @@ a {
     z-index: 1;
   }
 
+  .navigation a {
+    text-align: center;
+  }
+
   .navigation a:first-of-type {
     padding-top: 0.5rem;
   }
