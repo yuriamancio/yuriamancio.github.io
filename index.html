@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Summit Ski Resort</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Raleway&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <nav class="navigation">
+    <nav class="navigation" data-aos="fade-up">
       <a href="#" class="nav-link">The Lodge</a>
       <a href="#" class="nav-link">Our Ski Runs</a>
       <a href="#" class="nav-link logo">The Summit</a>
@@ -23,7 +24,7 @@
       <a href="#" class="nav-link">Contact</a>
     </nav>
 
-    <section class="banner">
+    <section class="banner" data-aos="fade-down">
       <img
         src="https://images.unsplash.com/photo-1418290232843-5d7a0bd93f7d?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb"
         alt=""
@@ -55,7 +56,7 @@
 
     <section class="activities">
       <h3 class="resort__heading">Activities</h3>
-      <div class="resort__activities">
+      <div class="resort__activities" data-aos="fade-up">
         <a href="#" class="activity activity--skiing">Skiing</a>
         <a href="#" class="activity activity--snowboarding">Snowboarding</a>
         <a href="#" class="activity activity--shoeing">Shoeing</a>
@@ -68,5 +69,9 @@
     <footer class="resort-location">
       <p>1098 Le Alps D'Hez - Lausanne - Suisse</p>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
