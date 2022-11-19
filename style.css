@@ -209,6 +209,11 @@ a {
   border: 1px solid #2176ff;
 }
 
+.activity:visited {
+  color: #fff;
+  background-color: #2176ff;
+}
+
 @media screen and (min-width: 768px) {
   .resort__activities {
     flex-direction: row;
