@@ -171,6 +171,10 @@ a {
     margin: 0 auto;
   }
 
+  .resort .resort__heading {
+    margin-top: 14rem;
+  }
+
   .resort__text {
     font-size: 1.8rem;
   }
