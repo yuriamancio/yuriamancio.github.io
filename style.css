@@ -106,14 +106,14 @@ a {
 .banner__experience {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 5rem;
+  font-size: 4rem;
   letter-spacing: 2px;
 }
 
 .banner__summit {
   transform: translatey(-20px);
   font-family: "Amatic SC", sans-serif;
-  font-size: 9.5rem;
+  font-size: 8rem;
   color: #1e90ff;
 }
 
@@ -164,6 +164,10 @@ a {
     width: 70%;
     margin: 0 auto;
   }
+
+  .resort__text {
+    font-size: 1.8rem;
+  }
 }
 
 /* Activities */
@@ -198,10 +202,16 @@ a {
 @media screen and (min-width: 768px) {
   .resort__activities {
     flex-direction: row;
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     flex-wrap: wrap;
     justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .resort__activities {
+    width: 60%;
   }
 }
 
