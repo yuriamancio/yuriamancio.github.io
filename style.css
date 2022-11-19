@@ -14,19 +14,17 @@ a {
   text-decoration: none;
 }
 
-.navigation ul {
-  margin: 0;
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
   text-transform: uppercase;
-  margin-top: 0;
-  padding-left: 0;
+  margin: 0;
   background-color: #232323;
   border: 0;
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-items: center;
 }
 
 .navigation a {
@@ -34,6 +32,14 @@ a {
   font-size: 2rem;
   color: #fff;
   transition: all 0.15s;
+}
+
+.navigation a:first-of-type {
+  padding-top: 2rem;
+}
+
+.navigation a:last-of-type {
+  padding-bottom: 2rem;
 }
 
 .navigation a:hover {
@@ -51,43 +57,30 @@ a {
   color: #fff;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 917px) {
   .navigation {
-    position: fixed;
-    top: 0;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    z-index: 999;
-  }
-
-  .navigation ul {
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 2rem;
-  }
-
-  .navigation a {
     flex-direction: row;
     justify-content: space-around;
-    padding: 1rem;
-    margin: 0;
   }
 
-  .navigation .nav-link {
-    padding: 1rem;
+  .navigation a:first-of-type {
+    padding-top: 0.5rem;
+  }
+
+  .navigation a:last-of-type {
+    padding-bottom: 0.5rem;
   }
 }
 
 /* Banner */
 
-.banner img {
-  width: 100%;
-}
-
 .banner {
   position: relative;
-  top: 5rem;
+  top: 2rem;
+}
+
+.banner img {
+  width: 100%;
 }
 
 .banner__text {
@@ -113,14 +106,14 @@ a {
 
 .banner__summit {
   transform: translatey(-20px);
-  font-family: "Amatic SC", cursive;
+  font-family: "Amatic SC", sans-serif;
   font-size: 9.5rem;
   color: #1e90ff;
 }
 
 @media screen and (min-width: 768px) {
   .banner {
-    top: 15rem;
+    top: 5rem;
   }
 
   .banner__experience {
@@ -134,10 +127,6 @@ a {
 
 /* Description */
 
-.resort {
-  margin-top: 6rem;
-}
-
 .resort__heading {
   text-align: center;
   font-family: "Raleway", sans-serif;
@@ -146,10 +135,7 @@ a {
   letter-spacing: 2px;
   color: #1e90ff;
   margin-bottom: 0;
-}
-
-.resort__heading h3 {
-  margin-bottom: 0;
+  margin-top: 10rem;
 }
 
 .resort__description {
@@ -163,7 +149,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-size: 1.8rem;
   word-spacing: 2px;
-  padding: 2rem 4rem;
+  padding: 1rem 4rem;
   line-height: 2;
 }
 
