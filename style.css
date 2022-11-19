@@ -198,7 +198,7 @@ a {
 @media screen and (min-width: 768px) {
   .resort__activities {
     flex-direction: row;
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
     flex-wrap: wrap;
     justify-content: center;
